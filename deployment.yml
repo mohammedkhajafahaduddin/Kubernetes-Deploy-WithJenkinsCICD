@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodejs-deployment
-        image: cloudtechmasters/nodejs-cicd:v1
+        image: "750114071631.dkr.ecr.us-east-1.amazonaws.com/4"
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
